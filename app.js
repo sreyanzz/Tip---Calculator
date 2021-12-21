@@ -18,7 +18,7 @@ function calculateTip(){
     }else{
         document.querySelector('#each').style.display = 'block';
     }
-    let total1 = (amount * service);
+    let total1 = (amount);
     console.log(total1);
     let total = (amount * service) / persons;
     console.log(total);
